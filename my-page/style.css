@@ -2,7 +2,7 @@ html {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	background-image: url('img/background1.jpg');
+	background-image: url('background1.jpg');
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-touch-callout: none;
@@ -16,7 +16,7 @@ html {
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url('img/background2.jpg');
+	background-image: url('background2.jpg');
 	width: 100%;
 	height: 100%;
 	background-size: 80px 80px;
@@ -247,36 +247,36 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 #proj1{
-	background-image: url("img/loa.jpg");
+	background-image: url("loa.jpg");
 	background-size: cover;
 }
 
 #proj2{
-	background-image: url("img/loa2.jpg");
+	background-image: url("loa2.jpg");
 	background-size: cover;
 }
 
 #proj3{
-	background-image: url("img/hijara.png");
+	background-image: url("hijara.jpg");
 	background-size: cover;
 }
 
 #proj4{
-	background-image: url("img/theword.png");
+	background-image: url("theword.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #proj5{
-	background-image: url("img/jup-logo.png");
+	background-image: url("jup-logo.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #proj6{
-	background-image: url("img/popcorn.png");
+	background-image: url("popcorn.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -409,7 +409,7 @@ a:link, a:visited, a:hover, a:active  {
 	top:300px;
 	left:400px;
 	background: transparent;
-	cursor: url(img/minecraft.cur),auto;
+	cursor: url(minecraft.cur),auto;
 }
 
 #form{
