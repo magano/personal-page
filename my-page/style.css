@@ -459,11 +459,11 @@ a:link, a:visited, a:hover, a:active  {
 	z-index: 10000;
 	overflow: hidden;
 	background-color: #34495e;
-        transition: opacity 400ms;
+        transition: visibility 400ms;
 }
 
 #viewport.hide {
-        opacity: 0;
+        visibility: hidden;
 }
 
 #floater {

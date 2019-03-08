@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="my-page/style.css">
         <link href="my-page/css_002.css" rel="stylesheet" type="text/css">
@@ -491,8 +492,8 @@ left (3rd line, 4th row)</div>
         }
       });
 
-      
       function stop() {
+        const viewport = document.getElementById('viewport');
         document.getElementById('viewport').classList.add('hide');
       }
       
@@ -525,7 +526,7 @@ left (3rd line, 4th row)</div>
       $(".tiles").css("opacity", "1");
     });
 
-    $("#about").click(function(){
+    document.getElementById('about').addEventListener('click', () => { 
       $("#adventure").toggle();
       $("#ask").toggle();
       aboutToggles();
